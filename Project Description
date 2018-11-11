@@ -1,0 +1,33 @@
+15-112: Introduction to programming and Computer Science
+Final Project: Tennis Game
+Name: Zinia Jalal
+AndrewId: zjj
+
+Description:
+This project will involve the coding of a tennis game. There will be three options for playing this game; that is, this game can be played by one player (where the other player will be the computer) or two players or four players (doubles). The rules of the game will be similar to the normal tennis game. If there are two players playing then the first one to hit the ball will be called the server and the other one the receiver. This rule will also apply if one player plays against the computer. Once the game starts each player will be trying to hit the ball such that it goes over the net and stays in the court. In this simulation the net will be represented with a line. When there are four players, two players will be placed in one team each. There will be one server and one receiver as usual but this time each of them will have a partner. In this case, the ball needs to be passed from server to the receiver’s partner and then to the server’s partner and finally to the receiver. This rule will be followed so that every player gets a fair hit. 
+
+Libraries:
+For this project at present, I’m planning to use the following libraries:
+1.	Pygame
+2.	Turtle
+3.	Random
+4.	Time
+5.	Math
+6.	Tkinter
+7.	Socket
+
+Description of the User Interface:
+1.	There will be a window which will display two buttons: “PLAY” and “INSTRUCTIONS”
+2.	The “PLAY” button will take the user to another window where they can choose the number of players, again with the help of buttons. The “INSTRUCTIONS” button will take the user to a window where the rules of all three games and the controls of the game will be explained.
+3.	Once the user chooses the type of game, they will be taken to the game window which will resemble a tennis court. The scores of each player or each team will be displayed on top.
+4.	Once a team or a player wins the “Game Over” text along with the winning player or team will be displayed.
+
+First Milestone:
+1.	The code and graphics for the game of two players will be complete. The game will have a green tennis court divided by a white line at the center. The end of the court will be marked by white borders.
+2.	The code for the game with the computer will be started and completed along with the development of its graphics which will be similar to the two player game.
+3.	The creation of game window (“PLAY, “INSTRUCTIONS”) will be started.
+
+Second Milestone:
+1.	The creation of the game windows and other sub-windows will be completed.
+2.	The code for the doubles game will be completed.
+
